@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 body{
     background-color: lightgray;
 }
@@ -57,26 +58,126 @@ body{
     background-color: #052680; /* Change the color as needed */
     overflow: hidden;
     margin: 0 auto;
+=======
+/*! HTML5 Boilerplate v9.0.0-RC1 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.6;
+  color: #333;
+  background-color: lightgray;
+}
+
+.main-container {
+  display: flex;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  background-color: #333333; /* Change the color as needed */
+  max-width: 980px;
+  color: #f0f0f0;
+  margin: 0 auto;
+  height: 100px; /* Adjust the height as needed */
+  display: flex; /* Use flexbox to create a flexible layout */
+  align-items: center;
+  font-size: x-small/* Align items vertically */
+}
+
+.footer-image {
+  margin-right: 20px; /* Add some space between the image and text */
+}
+
+.footer-image img {
+  max-width: 100px; /* Adjust the max width of the image as needed */
+  height: auto;
+}
+
+.footer-text {
+  flex: 1; /* Make the text section fill the remaining space */
+}
+
+.footer-text p {
+  margin: 0; /* Remove default margin for paragraphs */
+}
+
+.banner {
+  width: 980px;
+  height: 126px;
+  background-color: #f0f0f0; /* Change the color as needed */
+  border: 1px solid #ccc; /* Add border for visual clarity */
+  text-align: start;
+  font-size: 24px; /* Adjust font size */
+  font-family: Arial, sans-serif; /* Change font family if needed */
+  margin: 0 auto; /* Center the banner horizontally */
+  background-size: cover; /* Cover the banner with the background image */
+  background-position: bottom; /* Center the background image */
+  overflow: hidden; /* Prevent overflow */
+}
+
+
+/* Style the navigation bar */
+.navbar {
+  max-width: 980px;
+  margin: 0 auto;
+  background-color: #052680; /* Change the color as needed */
+  overflow: hidden;
+>>>>>>> Stashed changes
 }
 
 /* Style the navigation links */
 .navbar a {
+<<<<<<< Updated upstream
     float: left;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+=======
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+>>>>>>> Stashed changes
 }
 
 /* Change color on hover */
 .navbar a:hover {
+<<<<<<< Updated upstream
     background-color: dodgerblue;
     color: black;
+=======
+  background-color: dodgerblue;
+  color: black;
+>>>>>>> Stashed changes
 }
 
 /* Clear floats after the navbar */
 .navbar:after {
+<<<<<<< Updated upstream
     content: "";
     display: table;
     clear: both;
@@ -88,10 +189,23 @@ body{
     float: left; /* or float: right; based on selection */
     background-color: #f0f0f0; /* Change the color as needed */
     padding: 20px;
+=======
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sidebar-container {
+  width: 240px; /* Width of the sidebar */
+  float: left; /* or float: right; based on selection */
+  background-color: #f0f0f0; /* Change the color as needed */
+  padding: 20px;
+>>>>>>> Stashed changes
 }
 
 /* Style the sidebar sections */
 .sidebar-container h2 {
+<<<<<<< Updated upstream
     color: #052680 ;
     font-size: 20px;
     margin-bottom: 10px;
@@ -103,10 +217,24 @@ body{
 
 .sidebar-container form {
     margin-bottom: 20px;
+=======
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #052680;
+}
+
+.sidebar-container p {
+  margin-top: 0;
+}
+
+.sidebar-container form {
+  margin-bottom: 20px;
+>>>>>>> Stashed changes
 }
 
 .sidebar-container input[type="text"],
 .sidebar-container select {
+<<<<<<< Updated upstream
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
@@ -142,10 +270,48 @@ body{
 
 .sidebar-container ul li a:hover {
     color: #555;
+=======
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.sidebar-container input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #052680;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar-container input[type="submit"]:hover {
+  background-color: dodgerblue;
+}
+
+.sidebar-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-container ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar-container ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar-container ul li a:hover {
+  color: dodgerblue;
+>>>>>>> Stashed changes
 }
 
 /* Style the content section */
 .content {
+<<<<<<< Updated upstream
     max-width: 740px;
     margin: 0 auto; /* Center the content horizontally */
     padding: 20px;
@@ -191,3 +357,10 @@ body{
 }
 
 /* Add your additional styles as needed */
+=======
+  background-color: white; /* Change the color as needed */
+  max-width: 740px;
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px;
+}
+>>>>>>> Stashed changes
