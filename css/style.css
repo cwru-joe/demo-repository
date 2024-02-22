@@ -58,7 +58,7 @@ body{
     background-color: #052680; /* Change the color as needed */
     overflow: hidden;
     margin: 0 auto;
-=======
+}
 /*! HTML5 Boilerplate v9.0.0-RC1 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
@@ -142,42 +142,26 @@ body {
   margin: 0 auto;
   background-color: #052680; /* Change the color as needed */
   overflow: hidden;
->>>>>>> Stashed changes
 }
 
 /* Style the navigation links */
 .navbar a {
-<<<<<<< Updated upstream
     float: left;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-=======
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
->>>>>>> Stashed changes
 }
 
 /* Change color on hover */
 .navbar a:hover {
-<<<<<<< Updated upstream
     background-color: dodgerblue;
     color: black;
-=======
-  background-color: dodgerblue;
-  color: black;
->>>>>>> Stashed changes
 }
 
 /* Clear floats after the navbar */
 .navbar:after {
-<<<<<<< Updated upstream
     content: "";
     display: table;
     clear: both;
@@ -185,27 +169,14 @@ body {
 
 /* Style the sidebar container */
 .sidebar-container {
-    width: 240px; /* Width of the sidebar */
-    float: left; /* or float: right; based on selection */
-    background-color: #f0f0f0; /* Change the color as needed */
-    padding: 20px;
-=======
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.sidebar-container {
   width: 240px; /* Width of the sidebar */
   float: left; /* or float: right; based on selection */
   background-color: #f0f0f0; /* Change the color as needed */
   padding: 20px;
->>>>>>> Stashed changes
 }
 
 /* Style the sidebar sections */
 .sidebar-container h2 {
-<<<<<<< Updated upstream
     color: #052680 ;
     font-size: 20px;
     margin-bottom: 10px;
@@ -216,8 +187,8 @@ body {
 }
 
 .sidebar-container form {
+
     margin-bottom: 20px;
-=======
   font-size: 20px;
   margin-bottom: 10px;
   color: #052680;
@@ -234,7 +205,6 @@ body {
 
 .sidebar-container input[type="text"],
 .sidebar-container select {
-<<<<<<< Updated upstream
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
@@ -270,7 +240,6 @@ body {
 
 .sidebar-container ul li a:hover {
     color: #555;
-=======
   width: 100%;
   padding: 5px;
   margin-bottom: 10px;
@@ -306,12 +275,10 @@ body {
 
 .sidebar-container ul li a:hover {
   color: dodgerblue;
->>>>>>> Stashed changes
 }
 
 /* Style the content section */
 .content {
-<<<<<<< Updated upstream
     max-width: 740px;
     margin: 0 auto; /* Center the content horizontally */
     padding: 20px;
@@ -354,13 +321,9 @@ body {
 
 .coverart-box {
     /* Your coverart box styles here */
-}
-
 /* Add your additional styles as needed */
-=======
   background-color: white; /* Change the color as needed */
   max-width: 740px;
   margin: 0 auto; /* Center the content horizontally */
   padding: 20px;
 }
->>>>>>> Stashed changes
